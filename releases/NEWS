@@ -1,3 +1,48 @@
+# 0.2.52
+
+Released: 2020-11-24
+
+* SortingHat
+    * Limit SQLAlchemy versions to <1.4
+
+
+# 0.2.51
+
+Released: 2020-11-23
+
+* ELK
+    * [enriched/slack] Fix enrich items without user data
+    * [raw/slack] Handle fields in 'data.files'
+
+* Perceval
+    * [slack] Fix fetch message from a private user
+    * [askbot] Add logging debug messages to Askbot
+
+* Sigils
+    * [weblate] Add organization information to overview panel
+
+
+# 0.2.50
+
+Released: 2020-10-29
+
+* ELK
+    * [enriched/githubql] Classify merged PRs within cross-references study
+    * [enriched/githubql] Add MergedEvent info
+    * [gerrit] Add last-verified approval value field to enricher
+
+* Perceval
+    * [githubql] Fix error `Events not collected for issue...`
+    * [tests] Fix pipermail not working search_fields test
+    * [githubql] Add MergedEvent info
+
+* Sigils
+    * [github][github2] Update index patterns with new study fields
+    * [githubql] Update index pattern with MergedEvent fields
+    * [gerrit] Update index patterns with last Verified approval value
+    * [gerrit] Add Retention of Newcomers panel
+
+
 # 0.2.49
 
 Released: 2020-10-13
